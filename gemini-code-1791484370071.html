@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos RED - Jornadas Escolares Complementarias</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px;
+            background: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            color: var(--text-color);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .btn {
+            display: block;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 16px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        footer {
+            margin-top: 32px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Instrumentos RED<br>Jornadas Escolares Complementarias</h1>
+        <div class="subtitle">Pensamiento Computacional</div>
+
+        <div class="links-container">
+            <a href="https://forms.gle/NfPPF8DuY37JCVM99" class="btn" target="_blank" rel="noopener noreferrer">Pre-test</a>
+            <a href="https://sinergiaedutic.my.canva.site/red-maestria" class="btn" target="_blank" rel="noopener noreferrer">RED (Sinergia EduTIC)</a>
+            <a href="https://forms.gle/QYPtXHxSMR8QQXA6A" class="btn" target="_blank" rel="noopener noreferrer">Post-test</a>
+        </div>
+
+        <footer>
+            Pensamiento Computacional &copy; 2026
+        </footer>
+    </div>
+
+</body>
+</html>
